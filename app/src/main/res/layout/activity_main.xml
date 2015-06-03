@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+
+   <fragment
+       android:id="@+id/fragment1"
+       android:name="com.example.user.fragmentsdemo.FragmentA"
+       android:layout_width="Odp"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       tools:layout="@layout/fragment_a" />
+
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.example.user.fragmentsdemo.FragmentB"
+        android:layout_width="Odp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_b" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"/>
+
+</LinearLayout>
